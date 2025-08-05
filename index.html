@@ -3,10 +3,21 @@
     <head>
         <meta charset="UTF-8">
         <meta name ="viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
         <title>Mídia Kit - Luiz Gomes</title>
     </head>
 
 <body>
+    <nav id="navbar">
+        <a href="#" class="logo"> LUIZ GOMES</a>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#conquistas">Conquistas</a></li>
+            <li><a href="#contato">Contato</a></li>
+
+        </ul>
+    </nav>
+
     <header>
         <h1>Luiz Gomes | PILOTO DE KART</h1>
         <p>Acelerando em busca de vitórias e levando sua marca para o pódio</p>
@@ -22,18 +33,30 @@
         <h2>PRINCIPAIS CONQUISTAS</h2>
 
         <div>
-            <h3>1º Lugar</h3>   
-            <p>Seletiva para o Nacional de Kart Rental</p>
+            <div><h3>1º Lugar</h3>   
+            <p>Seletiva para o Nacional de Kart Rental</p></div>
+            <div><h3>Campeão 2024</h3>
+            <p>Copa Alpha Kart</p></div>
+            <div><h3>Vice-Campeão 2024</h3>
+            <p>Speed Kart Fight</p></div>
         </div>
-        
-        <div>
-            <h3>Campeão 2024</h3>
-            <p>Copa Alpha Kart</p>
-        </div>
+    </section>
 
-        <div>
-            <h3>Vice-Campeão 2024</h3>
-            <p>Speed Kart Fight</p>
+    <section id="desempenho">
+        <h2>DESEMPENHO 2024</h2>
+        <div class="numeros-grid">
+            <div>
+                <h3 class="counter" data-target="22">0</h3>
+                <p>Corridas Disputadas</p>
+            </div>
+            <div>
+                <h3 class="counter" data-target="19">0</h3>
+                <p>Pódios Conquistados</p>
+            </div>
+            <div>
+                <h3 class="counter" data-target="100">0</h3>
+                <p>% de chegadas no Top 10</p>
+            </div>
         </div>
     </section>
 
@@ -42,5 +65,6 @@
         <p>Entre em contato para conversarmos sobre essa parceria de sucesso.</p>
         <a href="luiz.fernando2108@gmail.com">Mande um e-mail</a>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
